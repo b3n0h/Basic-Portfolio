@@ -4,24 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <nav class="nav"><h1>Ben Oh</h1>
-    <div class="about">About</div>
-    <div class="portfolio">Portfolio</div>
-    <div class="contact">Contact</div>
-  </nav>
+  <nav class="nav">
+    <h1 class="myName">Ben Oh</h1>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+   </nav>
 
   <h1>Contact</h1>
   <hr>
   <form>
     Name<br>
-    <input type="Name" name="name"><br>
+    <input type="Name" name="name" placeholder="John Smith"><br>
     Email<br>
-    <input type="Email" name="email"><br>
+    <input type="Email" name="email" placeholder="example@example.com"><br>
     Message<br>
-    <textarea name="Message" cols="30" rows="10"></textarea><br> 
+    <textarea name="Message" cols="60" rows="10"></textarea><br> 
     <input type="submit" value="Submit">
   </form>
 </body>
