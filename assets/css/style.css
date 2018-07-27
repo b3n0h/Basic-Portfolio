@@ -39,6 +39,10 @@ a:link {
   color: white;
 }
 
+a:visited {
+  color: white;
+}
+
 .links {
   list-style-type: none;
   display: grid;
@@ -78,8 +82,29 @@ a:link {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: minmax(100px, auto);
   grid-row: 2/3;
+}
+
+.hangman {
+  display: grid;
+}
+
+.rpg {
+  display: grid;
+}
+
+.trivia {
+  display: grid;
+}
+
+.rutgers {
+  display: grid;
+}
+
+.rsp {
+  display: grid;
 }
 
 .contactform {
