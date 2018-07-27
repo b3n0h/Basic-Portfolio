@@ -106,6 +106,7 @@ a:visited {
 
 .rsp {
   display: grid;
+  grid-row: 2/3;
 }
 
 .contactform {
